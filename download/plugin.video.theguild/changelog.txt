@@ -1,0 +1,5 @@
+The Guild Changelog:
+--------------------
+
+v1.0.5 (29.03.2010)
+-other  : Cosmetic

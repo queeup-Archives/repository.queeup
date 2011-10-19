@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="plugin.video.tivion"
+  version="1.0.3"
+  name="Tivion"
+  provider-name="Ángel Guzmán Maeso (shakaran@gmail.com) &amp; queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Tivion video plugin</summary>
+    <summary lang="tr">Tivion video eklentisi</summary>
+    <description>Tivion plays some streaming TV and radio channels available. For the moment, 808 channels from 67 countries.</description>
+    <description lang="tr">Tivion plays some streaming TV and radio channels available. For the moment, 808 channels from 67 countries.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.audio.google.listen"
+  version="1.0.2"
+  name="Google Listen"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Google Listen audio add-on</summary>
+    <description>Listen is a research Android app providing a personalized audio news-magazine loaded with fresh and interesting content whenever it is turned on. Start with directed search and streaming and then sit back or multi-task and Listen to content matching your favorite programs and queries like "ABC Nightline," "Bernanke," and "Fantasy Baseball." Currently we are indexing audio files from thousands of English-only RSS feeds but we plan to index all web audio, talking head videos, and short personalized text-to-speech segments in the future.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.imdb.trailers"
+  version="1.0.1"
+  name="IMDb Trailers"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IMDb Trailers video add-on</summary>
+    <description>Watch movie trailers available on IMDb.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.theguild"
+  version="1.0.5"
+  name="The Guild"
+  provider-name="Jeremy Milum (jmilum@gmail.com) / queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The Guild video plugin</summary>
+    <summary lang="tr">The Guild video plugin</summary>
+    <description>The Guild is a web series about a group of online gamers.</description>
+    <description lang="tr">The Guild is a web series about a group of online gamers.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <!-- TODO: Find correct content name for shows -->
+    <supportedcontent>movies</supportedcontent>
+  </extension>
+</addon>
+
+<addon
+  id="repository.queeup"
+  name="queeup Add-ons"
+  version="1.0.3"
+  provider-name="queeup">
+  <extension point="xbmc.addon.repository"
+             name="Unofficial queeup's Add-on Repository">
+    <info compressed="true">http://github.com/queeup/repository.queeup/raw/master/addons.xml</info>
+    <checksum>http://github.com/queeup/repository.queeup/raw/master/addons.xml.md5</checksum>
+    <datadir zip="true">http://github.com/queeup/repository.queeup/master/download</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons from queeup's repository</summary>
+    <summary lang="tr">queeup'un deposundan eklentileri indirin</summary>
+    <description lang="en">Download and install add-ons from the unofficial queeup's addon repository.</description>
+    <description lang="tr">Download and install add-ons from the unofficial queeup's addon repository.</description>
+    <disclaimer lang="en">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.watchmojo"
+  version="1.0.8"
+  name="WatchMojo"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Mojo video plugin</summary>
+    <description>WatchMojo.com is one of the largest producers, publishers and syndicators of video content for broadband platforms, including the Web, wireless and out-of-home digital video markets.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.classical.tv"
+  version="1.0.0"
+  name="Classical TV"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Classical TV video add-on</summary>
+    <description>Classical TV brings you the virtual concert hall and the best seats in the house.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+</addons>
