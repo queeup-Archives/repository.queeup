@@ -112,7 +112,7 @@
              name="Unofficial queeup's Add-on Repository">
     <info compressed="true">http://github.com/queeup/repository.queeup/raw/master/addons.xml</info>
     <checksum>http://github.com/queeup/repository.queeup/raw/master/addons.xml.md5</checksum>
-    <datadir zip="true">http://github.com/queeup/repository.queeup/master/download</datadir>
+    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/master/download</datadir>
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
