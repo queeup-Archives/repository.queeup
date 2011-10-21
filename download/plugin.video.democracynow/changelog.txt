@@ -1,0 +1,8 @@
+Democracy Now! Changelog:
+-------------------------
+
+v1.0.2 (11.12.2010)
+removed : Settings
+
+v1.0.1 (12.11.2009)
+removed : debug option and codes.
