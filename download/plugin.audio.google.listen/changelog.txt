@@ -1,7 +1,10 @@
 plugin.audio.google.listen:
 --------------------------
+version 1.0.3:
+  corrected date: Millisecond to string for showing on XBMC.
+  language strings added.
 version 1.0.2:
-    - corrected UnboundLocalError: local variable 'con' referenced before assignment
+  corrected UnboundLocalError: local variable 'con' referenced before assignment
 version 1.0.1:
-    - corrected podcast thumb link
-    - corrected some add and list problems oused by url quote & unquote
+  corrected podcast thumb link
+  corrected some add and list problems oused by url quote & unquote
