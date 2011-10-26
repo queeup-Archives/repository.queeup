@@ -1,0 +1,39 @@
+Video Copilot Changelog:
+---------------------
+v1.1.2 (26.10.2011)
+-added  : Cache handler
+-fixed  : Site changes
+
+v1.1.1 (20.07.2010)
+-removed    : Some language strings
+-changed    : Addon icon
+
+v1.1.0 (22.04.2010)
+-removed    : Settings
+-other      : Cosmetic
+
+v1.0.9 (22.03.2010)
+-removed    : Debug setting hidden from users.
+-other      : Cosmetic
+
+v1.0.8 (12.11.2009)
+-fixed      : update check
+
+v1.0.7 (11.11.2009)
+-added      : Update check option, Thanks to @stacked for this idea and code
+
+v1.0.6 (02.11.2009)
+-added      : Debug option
+-fixed      : Plugin working now
+
+v1.0.5 (18.06.2009)
+-other      : Date correction
+
+v1.0.4 (18.06.2009)
+-other      : Debug closed
+
+v1.0.3 (17.06.2009)
+-changed    : code structure change entirely
+-added      : descriptions
+-fixed      : thumbnails
+
