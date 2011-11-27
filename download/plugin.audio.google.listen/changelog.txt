@@ -1,5 +1,9 @@
 plugin.audio.google.listen:
 --------------------------
+version 1.0.4:
+  added: Play All context menu
+  added: Number of item showing
+  added: Unlistened items on main subscriptions title
 version 1.0.3:
   corrected date: Millisecond to string for showing on XBMC.
   language strings added.
