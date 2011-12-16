@@ -1,0 +1,5 @@
+2.0.0
+- prepare for OpenELEC-2.0 release
+
+1.90.1
+- initial version inadyn-1.96.2
