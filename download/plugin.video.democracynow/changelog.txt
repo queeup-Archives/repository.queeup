@@ -1,6 +1,9 @@
 Democracy Now! Changelog:
 -------------------------
 
+v1.0.3 (16.12.2011)
+changed : Now just todays news. Headlines, Features and Full Show.
+
 v1.0.2 (11.12.2010)
 removed : Settings
 

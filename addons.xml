@@ -77,12 +77,14 @@
 
 <addon
   id="plugin.video.democracynow"
-  version="1.0.2"
+  version="1.0.3"
   name="Democracy Now!"
   provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
             version="1.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.0.8"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
              library="addon.py">
