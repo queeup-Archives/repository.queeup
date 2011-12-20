@@ -52,7 +52,7 @@
 
 <addon
   id="plugin.audio.google.listen"
-  version="1.0.4"
+  version="1.0.5"
   name="Google Listen"
   provider-name="queeup">
   <requires>
@@ -77,18 +77,18 @@
 
 <addon
   id="plugin.video.democracynow"
-  version="1.0.4"
+  version="1.0.5"
   name="Democracy Now!"
   provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
-            version="1.0"/>
+            version="2.0"/>
     <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
+            version="3.2.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
              library="addon.py">
-    <provides>video</provides>
+    <provides>video audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Democracy Now! video add-on</summary>

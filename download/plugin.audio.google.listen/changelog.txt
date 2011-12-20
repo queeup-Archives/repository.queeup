@@ -1,5 +1,7 @@
 plugin.audio.google.listen:
 --------------------------
+version 1.0.5:
+  fixed: Settings strings
 version 1.0.4:
   added: Play All context menu
   added: Number of item showing
