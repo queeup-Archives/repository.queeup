@@ -1,5 +1,7 @@
-Democracy Now! Changelog:
--------------------------
+plugin.video.democracynow:
+--------------------------
+v1.0.4 (20.12.2011)
+fix: thumb issue
 
 v1.0.3 (16.12.2011)
 changed : Now just todays news. Headlines, Features and Full Show.
