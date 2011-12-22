@@ -1,5 +1,8 @@
 plugin.video.democracynow:
 --------------------------
+v1.0.5 (22.12.2011)
+fix: url issue
+
 v1.0.4 (20.12.2011)
 fix: thumb issue
 
