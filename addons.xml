@@ -2,9 +2,9 @@
 <addons>
 <addon
   id="plugin.video.tivion"
-  version="1.0.3"
+  version="1.0.4"
   name="Tivion"
-  provider-name="Ángel Guzmán Maeso (shakaran@gmail.com) &amp; queeup">
+  provider-name="Ángel Guzmán Maeso (shakaran@gmail.com), queeup">
   <requires>
     <import addon="xbmc.python"
             version="1.0"/>

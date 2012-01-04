@@ -1,5 +1,10 @@
-Tivion Changelog:
--------------------------
+plugin.video.tivion:
+--------------------
+v1.0.4 (04.01.2012)
+added: cache support
+cosmetic: debug log cosmetic
+change: revert daily repo to trunk for geting lates channels.py & countries.py
+
 v1.0.3 (12.10.2011)
 change: Get lates channels.py & countries.py from daily repo
 
