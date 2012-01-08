@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+  id="plugin.video.medici.tv"
+  version="1.0.2"
+  name="Medici.TV"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.0.8"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+    <import addon="script.module.requests"
+            version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>medici.tv Live music in your home 24/7</summary>
+    <summary lang="tr">medici.tv Live music in your home 24/7</summary>
+    <description>medici.tv brings you over 80 live, free-of charge, outstanding classical music concerts, each year, in partnership with the world's top artists and music institutions.
+
+    Choose from the selection of 600 VOD programmes (which will increase to 1.000 in the next 2 years) including concerts, operas, recitals, documentaries, master-classes, artist's portraits and archive material.
+
+    Subscribe and (re)discover Daniel Barenboim, Vladimir Jurowski, the Ebene Quartet, Natalie Dessay, Renaud Capuçon, Maria Callas, David Fray, Herbert von Karajan, Nathan Milstein, Martha Argerich...
+
+    More details on : http://www.medici.tv/</description>
+    <description lang="tr">medici.tv brings you over 80 live, free-of charge, outstanding classical music concerts, each year, in partnership with the world's top artists and music institutions.
+
+    Choose from the selection of 600 VOD programmes (which will increase to 1.000 in the next 2 years) including concerts, operas, recitals, documentaries, master-classes, artist's portraits and archive material.
+
+    Subscribe and (re)discover Daniel Barenboim, Vladimir Jurowski, the Ebene Quartet, Natalie Dessay, Renaud Capuçon, Maria Callas, David Fray, Herbert von Karajan, Nathan Milstein, Martha Argerich...
+
+    More details on : http://www.medici.tv/</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
   id="plugin.video.tivion"
   version="1.0.4"
   name="Tivion"
