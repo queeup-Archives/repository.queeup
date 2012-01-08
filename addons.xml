@@ -102,6 +102,32 @@
   </extension>
 </addon>
 
+<addon id="script.module.feedparser"
+       name="feedparser"
+       version="5.1"
+       provider-name="http://code.google.com/p/feedparser/">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds</summary>
+    <description>Universal feed parser
+
+    Handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
+
+    Visit http://feedparser.org/ for the latest version
+    Visit http://feedparser.org/docs/ for the latest documentation
+
+    Required: Python 2.4 or later
+    Recommended: CJKCodecs and iconv_codec http://cjkpython.i18n.org/</description>
+    <license>UNKNOWN</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.videocopilot"
   version="1.1.2"
@@ -250,6 +276,28 @@
     <license>WTFPL</license>
     <platform>all</platform>
     <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="0.9.1"
+       provider-name="www.python-requests.org, queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Requests is an ISC Licensed HTTP library, written in Python, for human beings.</summary>
+    <description>Most existing Python modules for sending HTTP requests are extremely
+verbose and cumbersome. Python's builtin urllib2 module provides most of
+the HTTP capabilities you should need, but the api is thoroughly broken.
+It requires an enormous amount of work (even method overrides) to
+perform the simplest of tasks.</description>
+    <license>ISC</license>
+    <platform>all</platform>
   </extension>
 </addon>
 
