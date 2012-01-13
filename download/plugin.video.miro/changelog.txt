@@ -1,2 +1,5 @@
 plugin.video.miro:
 ------------------
+version 1.0.1 (13.01.2012)
+fixed: My subscription directory not showing
+other: cosmetic
