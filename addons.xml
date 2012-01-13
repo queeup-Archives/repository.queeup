@@ -342,6 +342,31 @@ perform the simplest of tasks.</description>
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.miro"
+  version="1.0.0"
+  name="Miro"
+  provider-name="Plex, queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+    <import addon="script.module.feedparser"
+            version="5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>Miro Guide is an open content directory which offers over 6,000+ internet TV shows and video podcasts. Organized by genre or language, there is something for everyone. From the folks who make Miro.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="service.dyndns.inadyn"
        name="inadyn"
        version="2.0.0"
