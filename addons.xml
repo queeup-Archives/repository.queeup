@@ -43,7 +43,7 @@
 
 <addon id="service.inadyn"
        name="inadyn"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="queeup">
   <requires>
     <import addon="xbmc.python"

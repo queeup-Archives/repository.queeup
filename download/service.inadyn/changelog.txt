@@ -1,4 +1,7 @@
 service.inadyn:
 ---------------
+version 1.0.1 (17.01.2012)
+fixed: inadyn bin file +x
+
 version 1.0.0 (17.01.2012)
 initial release of inadyn version 1.96.2
