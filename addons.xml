@@ -41,6 +41,25 @@
   </extension>
 </addon>
 
+<addon id="service.inadyn"
+       name="inadyn"
+       version="1.0.0"
+       provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="service.py"
+             start="login|startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>inadyn: is a free DynDNS client</summary>
+    <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org (in all three flavors: dynamic, static, custom), freedns.afraid.org, zoneedit.com, no-ip.com</description>
+    <platform>linux</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.tivion"
   version="1.0.4"
@@ -363,28 +382,6 @@ perform the simplest of tasks.</description>
     <summary></summary>
     <description>Miro Guide is an open content directory which offers over 6,000+ internet TV shows and video podcasts. Organized by genre or language, there is something for everyone. From the folks who make Miro.</description>
     <license>WTFPL</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="service.dyndns.inadyn"
-       name="inadyn"
-       version="2.0.0"
-       provider-name="openelec.tv">
-  <requires>
-    <import addon="os.openelec.tv" version="2.0"/>
-    <import addon="xbmc.python" version="2.0"/>
-
-  </requires>
-  <extension point="xbmc.service"
-             library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>inadyn: is a free DynDNS client</summary>
-    <description>
-INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org (in all three flavors: dynamic, static, custom), freedns.afraid.org, zoneedit.com, no-ip.com
-    </description>
     <platform>all</platform>
   </extension>
 </addon>
