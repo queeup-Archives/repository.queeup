@@ -43,7 +43,7 @@
 
 <addon id="service.inadyn"
        name="inadyn"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
@@ -51,7 +51,7 @@
   </requires>
   <extension point="xbmc.service"
              library="service.py"
-             start="login|startup">
+             start="startup">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>inadyn: is a free DynDNS client</summary>
