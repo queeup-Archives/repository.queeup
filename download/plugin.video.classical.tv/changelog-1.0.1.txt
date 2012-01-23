@@ -1,0 +1,4 @@
+plugin.video.classical.tv:
+--------------------------
+version 1.0.1 (23.01.2012)
+  -fixed site url.
