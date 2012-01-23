@@ -1,0 +1,9 @@
+plugin.video.miro:
+------------------
+vesion 1.0.2 (14.01.2012)
+-added: language support
+-other: cosmetic
+
+version 1.0.1 (13.01.2012)
+-fixed: My subscription directory not showing
+-other: cosmetic

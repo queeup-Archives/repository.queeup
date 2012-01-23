@@ -1,0 +1,25 @@
+Watch Mojo Changelog:
+---------------------
+v1.0.8 (11.12.2010)
+-other  : Modified for Dharma
+
+v1.0.7 (15.04.2010)
+-changed: Code structure 
+
+v1.0.6 (20.03.2010)
+-other  : Cosmetic
+
+v1.0.5 (12.11.2009)
+-fixed  : update check
+
+v1.0.4 (11.11.2009)
+-other  : Cosmetic
+
+v1.0.3 (11.11.2009)
+-added  : Update check option(Thanks to @stacked for this idea and code)
+
+v1.0.2 (02.11.2009)
+-added  : Debug option
+
+v1.0.1 (23.06.2009)
+-added  : Genres
