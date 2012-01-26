@@ -387,7 +387,7 @@ perform the simplest of tasks.</description>
 
 <addon
   id="plugin.video.miro"
-  version="1.0.3"
+  version="1.0.4"
   name="Miro"
   provider-name="Plex, queeup">
   <requires>
