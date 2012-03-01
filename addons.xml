@@ -43,7 +43,7 @@
 
 <addon id="service.inadyn"
        name="inadyn"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
@@ -55,7 +55,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>inadyn: is a free DynDNS client</summary>
-    <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org (in all three flavors: dynamic, static, custom), freedns.afraid.org, zoneedit.com, no-ip.com</description>
+    <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org (in all three flavors: dynamic, static, custom), freedns.afraid.org, zoneedit.com, no-ip.com, dnsomatic.com</description>
     <platform>linux</platform>
   </extension>
 </addon>
