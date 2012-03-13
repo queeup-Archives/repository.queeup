@@ -1,0 +1,17 @@
+plugin.video.imdb.trailers:
+---------------------------
+v1.0.3 (12.03.2012)
+-fixed: ascii error on Turkish notification
+-other: CouchPotato quality sort reordered.
+
+v1.0.2 (12.03.2012)
+-added: tormovies.org mail warn integration
+-remove: unneeded variables and imports.
+-other: some code cleaning and organizing.
+
+v1.0.1 (03.07.2011)
+-added: CouchPotato download support (BETA)
+-added: Cache support.
+
+v1.0.0 (19.02.2011)
+First Release
