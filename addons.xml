@@ -360,6 +360,7 @@
     <license>WTFPL</license>
     <platform>all</platform>
     <nofanart>true</nofanart>
+    <broken>Classical TV is currently under maintenance.</broken>
   </extension>
 </addon>
 
