@@ -75,6 +75,30 @@
 </addon>
 
 <addon
+  id="plugin.video.watchmojo"
+  version="2.0.0"
+  name="WatchMojo"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Mojo video plugin</summary>
+    <description>WatchMojo.com is one of the largest producers, publishers and syndicators of video content for broadband platforms, including the Web, wireless and out-of-home digital video markets.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon
   id="plugin.video.newslook"
   version="2.0.0"
   name="NewsLook"
