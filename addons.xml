@@ -74,6 +74,30 @@
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.newslook"
+  version="2.0.0"
+  name="NewsLook"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NewsLook video add-on</summary>
+    <description>NewsLook - bringing you the best video news.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
 <addon id="script.module.requests"
        name="requests"
        version="0.12.1"
