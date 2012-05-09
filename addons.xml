@@ -27,6 +27,34 @@
 </addon>
 
 <addon
+  id="plugin.video.videocopilot"
+  version="2.0.0"
+  name="Video Copilot"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Video Copilot video plugin</summary>
+    <summary lang="tr">Video Copilot video plugin</summary>
+    <description>Video Copilot is to provide useful products and tutorials for visual effects artists and other talented individuals seeking the benefits of post production.</description>
+    <description lang="tr">Video Copilot is to provide useful products and tutorials for visual effects artists and other talented individuals seeking the benefits of post production.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon
   id="plugin.video.imdb.trailers"
   version="2.0.0"
   name="IMDb Trailers"
