@@ -1,174 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon
-  id="plugin.video.medici.tv"
-  version="1.0.2"
-  name="Medici.TV"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-    <import addon="script.module.requests"
-            version="0.9.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>medici.tv Live music in your home 24/7</summary>
-    <summary lang="tr">medici.tv Live music in your home 24/7</summary>
-    <description>medici.tv brings you over 80 live, free-of charge, outstanding classical music concerts, each year, in partnership with the world's top artists and music institutions.
-
-    Choose from the selection of 600 VOD programmes (which will increase to 1.000 in the next 2 years) including concerts, operas, recitals, documentaries, master-classes, artist's portraits and archive material.
-
-    Subscribe and (re)discover Daniel Barenboim, Vladimir Jurowski, the Ebene Quartet, Natalie Dessay, Renaud Capuçon, Maria Callas, David Fray, Herbert von Karajan, Nathan Milstein, Martha Argerich...
-
-    More details on : http://www.medici.tv/</description>
-    <description lang="tr">medici.tv brings you over 80 live, free-of charge, outstanding classical music concerts, each year, in partnership with the world's top artists and music institutions.
-
-    Choose from the selection of 600 VOD programmes (which will increase to 1.000 in the next 2 years) including concerts, operas, recitals, documentaries, master-classes, artist's portraits and archive material.
-
-    Subscribe and (re)discover Daniel Barenboim, Vladimir Jurowski, the Ebene Quartet, Natalie Dessay, Renaud Capuçon, Maria Callas, David Fray, Herbert von Karajan, Nathan Milstein, Martha Argerich...
-
-    More details on : http://www.medici.tv/</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="service.inadyn"
-       name="inadyn"
-       version="1.0.3"
-       provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-  </requires>
-  <extension point="xbmc.service"
-             library="service.py"
-             start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>inadyn: is a free DynDNS client</summary>
-    <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org (in all three flavors: dynamic, static, custom), freedns.afraid.org, zoneedit.com, no-ip.com, dnsomatic.com</description>
-    <platform>linux</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.tivion"
-  version="1.0.4"
-  name="Tivion"
-  provider-name="Ángel Guzmán Maeso (shakaran@gmail.com), queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Tivion video plugin</summary>
-    <summary lang="tr">Tivion video eklentisi</summary>
-    <description>Tivion plays some streaming TV and radio channels available. For the moment, 808 channels from 67 countries.</description>
-    <description lang="tr">Tivion plays some streaming TV and radio channels available. For the moment, 808 channels from 67 countries.</description>
-    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.openfilm"
-  version="1.0.1"
-  name="OpenFilm"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>OpenFilm.com video add-on</summary>
-    <description>Openfilm brings the best elements of the film industry together. With an innovative platform designed to change the process of discovering great independent film, Openfilm is dedicated to developing, marketing and distributing great works.</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.audio.google.listen"
-  version="1.0.5"
-  name="Google Listen"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Google Listen audio add-on</summary>
-    <description>Listen is a research Android app providing a personalized audio news-magazine loaded with fresh and interesting content whenever it is turned on. Start with directed search and streaming and then sit back or multi-task and Listen to content matching your favorite programs and queries like "ABC Nightline," "Bernanke," and "Fantasy Baseball." Currently we are indexing audio files from thousands of English-only RSS feeds but we plan to index all web audio, talking head videos, and short personalized text-to-speech segments in the future.</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.democracynow"
-  version="1.0.5"
-  name="Democracy Now!"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Democracy Now! video add-on</summary>
-    <summary lang="tr">Democracy Now! video add-on</summary>
-    <description>Democracy Now! is a syndicated program of news, analysis, and opinion aired by more than 700 radio and television, satellite and cable TV networks in North America. Democracy Now! serves as the flagship program for the Pacifica Radio network.</description>
-    <description lang="tr">Democracy Now! is a syndicated program of news, analysis, and opinion aired by more than 700 radio and television, satellite and cable TV networks in North America. Democracy Now! serves as the flagship program for the Pacifica Radio network.</description>
-    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <license>WTFPL</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.module.feedparser"
        name="feedparser"
-       version="5.1"
+       version="5.1.2"
        provider-name="http://code.google.com/p/feedparser/">
   <requires>
     <import addon="xbmc.python"
-            version="1.0"/>
+            version="2.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -189,95 +27,15 @@
 </addon>
 
 <addon
-  id="plugin.video.videocopilot"
-  version="1.1.2"
-  name="Video Copilot"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Video Copilot video plugin</summary>
-    <summary lang="tr">Video Copilot video plugin</summary>
-    <description>Video Copilot is to provide useful products and tutorials for visual effects artists and other talented individuals seeking the benefits of post production.</description>
-    <description lang="tr">Video Copilot is to provide useful products and tutorials for visual effects artists and other talented individuals seeking the benefits of post production.</description>
-    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.imdb.trailers"
-  version="1.0.5"
-  name="IMDb Trailers"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>IMDb Trailers video add-on</summary>
-    <description>Watch movie trailers available on IMDb.</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.theguild"
-  version="1.0.5"
-  name="The Guild"
-  provider-name="Jeremy Milum (jmilum@gmail.com) / queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>The Guild video plugin</summary>
-    <summary lang="tr">The Guild video plugin</summary>
-    <description>The Guild is a web series about a group of online gamers.</description>
-    <description lang="tr">The Guild is a web series about a group of online gamers.</description>
-    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <!-- TODO: Find correct content name for shows -->
-    <supportedcontent>movies</supportedcontent>
-  </extension>
-</addon>
-
-<addon
   id="repository.queeup"
   name="queeup Add-ons"
-  version="1.0.3"
+  version="2.0.0"
   provider-name="queeup">
   <extension point="xbmc.addon.repository"
              name="Unofficial queeup's Add-on Repository">
-    <info compressed="true">http://github.com/queeup/repository.queeup/raw/master/addons.xml</info>
-    <checksum>http://github.com/queeup/repository.queeup/raw/master/addons.xml.md5</checksum>
-    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/master/download</datadir>
+    <info compressed="true">http://github.com/queeup/repository.queeup/raw/eden/addons.xml</info>
+    <checksum>http://github.com/queeup/repository.queeup/raw/eden/addons.xml.md5</checksum>
+    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/eden/download</datadir>
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -291,86 +49,13 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.watchmojo"
-  version="1.0.8"
-  name="WatchMojo"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch Mojo video plugin</summary>
-    <description>WatchMojo.com is one of the largest producers, publishers and syndicators of video content for broadband platforms, including the Web, wireless and out-of-home digital video markets.</description>
-    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.newslook"
-  version="1.0.0"
-  name="NewsLook"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>NewsLook video add-on</summary>
-    <description>NewsLook - bringing you the best video news.</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.classical.tv"
-  version="1.0.1"
-  name="Classical TV"
-  provider-name="queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Classical TV video add-on</summary>
-    <description>Classical TV brings you the virtual concert hall and the best seats in the house.</description>
-    <license>WTFPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-    <broken>Classical TV is currently under maintenance.</broken>
-  </extension>
-</addon>
-
 <addon id="script.module.requests"
        name="requests"
-       version="0.9.1"
+       version="0.12.1"
        provider-name="www.python-requests.org, queeup">
   <requires>
     <import addon="xbmc.python"
-            version="1.0"/>
+            version="2.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -382,31 +67,6 @@ the HTTP capabilities you should need, but the api is thoroughly broken.
 It requires an enormous amount of work (even method overrides) to
 perform the simplest of tasks.</description>
     <license>ISC</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.miro"
-  version="1.0.4"
-  name="Miro"
-  provider-name="Plex, queeup">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
-    <import addon="script.module.simplejson"
-            version="2.0.10"/>
-    <import addon="script.module.feedparser"
-            version="5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>Miro Guide is an open content directory which offers over 6,000+ internet TV shows and video podcasts. Organized by genre or language, there is something for everyone. From the folks who make Miro.</description>
-    <license>WTFPL</license>
     <platform>all</platform>
   </extension>
 </addon>
