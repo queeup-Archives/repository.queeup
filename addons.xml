@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="shell.python.subliminal"
+       name="subliminal"
+       version="0.5.1"
+       provider-name="queeup">
+  <requires>
+    <import addon="os.openelec.tv" version="2.0" optional="false"/>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>subliminal: Python module to search and download subtitles.</summary>
+    <description>subliminal: Python module to search and download subtitles.</description>
+    <disclaimer>This add-on just for OpenELEC.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="service.inadyn"
        name="inadyn"
        version="2.0.0"
@@ -214,6 +234,26 @@ the HTTP capabilities you should need, but the api is thoroughly broken.
 It requires an enormous amount of work (even method overrides) to
 perform the simplest of tasks.</description>
     <license>ISC</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="shell.python.tvnamer"
+       name="tvnamer"
+       version="2.2.1"
+       provider-name="queeup">
+  <requires>
+    <import addon="os.openelec.tv" version="2.0" optional="false"/>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>tvnamer: Automatic TV episode file renamer.</summary>
+    <description>Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api</description>
+    <disclaimer>This add-on just for OpenELEC.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
