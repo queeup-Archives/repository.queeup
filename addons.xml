@@ -14,10 +14,19 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Python module to search and download subtitles.</summary>
+    <summary lang="tr">Altyazı aramak ve indirmek için python modülü.</summary>
     <description>Python module to search and download subtitles.
 
-    This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.</description>
+This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.
+
+Please reboot your OpenELEC after install.</description>
+    <description lang="tr">Altyazı aramak ve indirmek için python modülü.
+
+Bu eklenti sadece OpenELEC ile ve konsolda çalışır. Eğer OpenELEC kullanmıyorsanız eklenti Bozuk olarak görünür.
+
+Lütfen yükledikten sonra OpenELEC'i yeniden başlatın.</description>
     <disclaimer>This add-on just for OpenELEC and it's for console use only.</disclaimer>
+    <disclaimer lang="tr">Bu eklenti sadece OpenELEC ile ve konsolda çalışır.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -254,10 +263,19 @@ perform the simplest of tasks.</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Automatic TV episode file renamer.</summary>
+    <summary lang="tr">TV bölümleri için otomatik dosya isimlendirici.</summary>
     <description>Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api.
 
-    This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.</description>
+This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.
+
+Please reboot your OpenELEC after install.</description>
+    <description lang="tr">TV bölümleri için otomatik dosya isimlendirici, tvdb_api ile thetvdb.com verilerini kullanır.
+
+Bu eklenti sadece OpenELEC ile ve konsolda çalışır. Eğer OpenELEC kullanmıyorsanız eklenti Bozuk olarak görünür.
+
+Lütfen yükledikten sonra OpenELEC'i yeniden başlatın.</description>
     <disclaimer>This add-on just for OpenELEC and it's for console use only.</disclaimer>
+    <disclaimer lang="tr">Bu eklenti sadece OpenELEC ile ve konsolda çalışır.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
