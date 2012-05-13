@@ -3,7 +3,7 @@
 <addon id="shell.python.subliminal"
        name="subliminal"
        version="0.5.1"
-       provider-name="queeup">
+       provider-name="queeup, Diaoul">
   <requires>
     <import addon="os.openelec.tv" version="2.0" optional="false"/>
     <import addon="xbmc.python" version="2.0"/>
@@ -13,9 +13,11 @@
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>subliminal: Python module to search and download subtitles.</summary>
-    <description>subliminal: Python module to search and download subtitles.</description>
-    <disclaimer>This add-on just for OpenELEC.</disclaimer>
+    <summary>Python module to search and download subtitles.</summary>
+    <description>Python module to search and download subtitles.
+
+    This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.</description>
+    <disclaimer>This add-on just for OpenELEC and it's for console use only.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -241,7 +243,7 @@ perform the simplest of tasks.</description>
 <addon id="shell.python.tvnamer"
        name="tvnamer"
        version="2.2.1"
-       provider-name="queeup">
+       provider-name="queeup, dbr">
   <requires>
     <import addon="os.openelec.tv" version="2.0" optional="false"/>
     <import addon="xbmc.python" version="2.0"/>
@@ -251,9 +253,11 @@ perform the simplest of tasks.</description>
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>tvnamer: Automatic TV episode file renamer.</summary>
-    <description>Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api</description>
-    <disclaimer>This add-on just for OpenELEC.</disclaimer>
+    <summary>Automatic TV episode file renamer.</summary>
+    <description>Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api.
+
+    This add-on just for OpenELEC and it's for console use only. If you are not on OpenELEC it's going to be shown as Broken.</description>
+    <disclaimer>This add-on just for OpenELEC and it's for console use only.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
