@@ -1,0 +1,28 @@
+service.inadyn:
+---------------
+version 2.0.1 (17.05.2012)
+-correct pid number for kill process.
+
+version 2.0.0 (10.05.2012)
+-use xbmc.sleep insted of time.sleep
+-code cleanup and reorder with pep8 guides
+-import reordered and added missing sys module
+
+version 1.0.4
+-resolves the issue of stealing the xbmc webserver port
+-some code cleaning
+-import reordered and added missing sys module
+  
+version 1.0.3 (02.03.2012)
+-added dnsomatic.com support
+
+version 1.0.2 (20.01.2012)
+-make executable python way.
+-execute with subprocess.Popen rather then os.system
+-disabled startup notification. (very annoying)
+
+version 1.0.1 (17.01.2012)
+-inadyn bin file +x
+
+version 1.0.0 (17.01.2012)
+-initial release of inadyn version 1.96.2
