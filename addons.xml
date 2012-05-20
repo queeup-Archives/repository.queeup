@@ -51,6 +51,30 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 </addon>
 
 <addon
+  id="plugin.video.openfilm"
+  version="2.0.0"
+  name="OpenFilm"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>OpenFilm.com video add-on</summary>
+    <description>Openfilm brings the best elements of the film industry together. With an innovative platform designed to change the process of discovering great independent film, Openfilm is dedicated to developing, marketing and distributing great works.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
+<addon
   id="plugin.video.democracynow"
   version="2.0.0"
   name="Democracy Now!"
