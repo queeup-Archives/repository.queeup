@@ -129,7 +129,7 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 
 <addon
   id="plugin.video.videocopilot"
-  version="2.0.0"
+  version="2.0.1"
   name="Video Copilot"
   provider-name="queeup">
   <requires>
