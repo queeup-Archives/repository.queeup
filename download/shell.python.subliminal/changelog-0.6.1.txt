@@ -1,0 +1,14 @@
+shell.python.subliminal:
+------------------------
+0.6.1
+-updated to subliminal v0.6.1
+
+0.6.0
+-updated to subliminal v0.6.0
+-updated to Beautifulsoup v4.1.0
+-updated to requests v0.13.1
+-updated to guessit v0.4.2
+-added new requirement html5lib
+
+0.5.1
+-initial release

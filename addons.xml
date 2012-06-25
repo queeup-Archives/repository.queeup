@@ -2,7 +2,7 @@
 <addons>
 <addon id="shell.python.subliminal"
        name="subliminal"
-       version="0.5.1"
+       version="0.6.1"
        provider-name="queeup, Diaoul">
   <requires>
     <import addon="os.openelec.tv" version="2.0" optional="false"/>
