@@ -179,6 +179,33 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 </addon>
 
 <addon
+  id="plugin.video.theguild"
+  version="2.0.0"
+  name="The Guild"
+  provider-name="Jeremy Milum (jmilum@gmail.com) / queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.python.module"
+             library="resources/lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>The Guild video plugin</summary>
+    <summary lang="tr">The Guild video plugin</summary>
+    <description>The Guild is a web series about a group of online gamers.</description>
+    <description lang="tr">The Guild is a web series about a group of online gamers.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
   id="repository.queeup"
   name="queeup Add-ons"
   version="2.0.0"
