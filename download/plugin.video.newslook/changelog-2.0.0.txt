@@ -1,5 +1,0 @@
-plugin.video.newslook:
-----------------------
-v2.0.0 (27.04.2012)
--added play all directory item
--code cleanup with pep8 rules.
