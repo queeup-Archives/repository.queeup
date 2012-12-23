@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+  id="plugin.video.imdb.trailers"
+  version="2.0.4"
+  name="IMDb Trailers"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IMDb Trailers video add-on</summary>
+    <summary lang="tr">IMDb Fragmanları video eklentisi</summary>
+    <description>Watch movie trailers available on IMDb.</description>
+    <description lang="tr">IMDb'de bulunan film fragmanlarını izle.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
   id="repository.queeup"
   name="queeup Add-ons"
   version="2.0.1"
