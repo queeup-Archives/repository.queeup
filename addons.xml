@@ -157,7 +157,7 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 
 <addon
   id="plugin.video.imdb.trailers"
-  version="2.0.2"
+  version="2.0.3"
   name="IMDb Trailers"
   provider-name="queeup">
   <requires>
