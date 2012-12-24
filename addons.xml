@@ -70,4 +70,26 @@
     <nofanart>true</nofanart>
   </extension>
 </addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="1.0.4"
+       provider-name="www.python-requests.org">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Requests is an ISC Licensed HTTP library, written in Python, for human beings.</summary>
+    <description>Most existing Python modules for sending HTTP requests are extremely
+verbose and cumbersome. Python's builtin urllib2 module provides most of
+the HTTP capabilities you should need, but the api is thoroughly broken.
+It requires an enormous amount of work (even method overrides) to
+perform the simplest of tasks.</description>
+    <license>Apache v2.0</license>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
