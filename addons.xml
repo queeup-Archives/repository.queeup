@@ -208,13 +208,16 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 <addon
   id="repository.queeup"
   name="queeup Add-ons"
-  version="2.0.0"
+  version="2.0.1"
   provider-name="queeup">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
   <extension point="xbmc.addon.repository"
              name="Unofficial queeup's Add-on Repository">
-    <info compressed="true">http://github.com/queeup/repository.queeup/raw/eden/addons.xml</info>
-    <checksum>http://github.com/queeup/repository.queeup/raw/eden/addons.xml.md5</checksum>
-    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/eden/download</datadir>
+    <info compressed="true">http://github.com/queeup/repository.queeup/raw/frodo/addons.xml</info>
+    <checksum>http://github.com/queeup/repository.queeup/raw/frodo/addons.xml.md5</checksum>
+    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/frodo/download</datadir>
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -225,6 +228,7 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
     <disclaimer lang="en">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
     <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
     <platform>all</platform>
+    <nofanart>true</nofanart>
   </extension>
 </addon>
 
