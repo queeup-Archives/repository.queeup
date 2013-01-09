@@ -215,9 +215,9 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
   </requires>
   <extension point="xbmc.addon.repository"
              name="Unofficial queeup's Add-on Repository">
-    <info compressed="true">http://github.com/queeup/repository.queeup/raw/eden/addons.xml</info>
-    <checksum>http://github.com/queeup/repository.queeup/raw/eden/addons.xml.md5</checksum>
-    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/eden/download</datadir>
+    <info compressed="true">http://github.com/queeup/repository.queeup/raw/frodo/addons.xml</info>
+    <checksum>http://github.com/queeup/repository.queeup/raw/frodo/addons.xml.md5</checksum>
+    <datadir zip="true">http://github.com/queeup/repository.queeup/raw/frodo/download</datadir>
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
