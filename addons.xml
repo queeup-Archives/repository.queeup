@@ -75,7 +75,7 @@
 
 <addon
   id="plugin.video.imdb.trailers"
-  version="2.0.4"
+  version="2.0.5"
   name="IMDb Trailers"
   provider-name="queeup">
   <requires>
