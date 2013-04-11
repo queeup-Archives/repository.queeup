@@ -103,7 +103,7 @@
 
 <addon
   id="plugin.video.imdb.trailers"
-  version="2.0.6"
+  version="2.0.7"
   name="IMDb Trailers"
   provider-name="queeup">
   <requires>
