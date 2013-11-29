@@ -33,7 +33,7 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 
 <addon id="service.inadyn"
        name="inadyn"
-       version="2.0.6"
+       version="2.0.7"
        provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
