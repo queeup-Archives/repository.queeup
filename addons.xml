@@ -33,8 +33,8 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 
 <addon id="service.inadyn"
        name="inadyn"
-       version="2.0.7"
-       provider-name="queeup">
+       version="2.0.8"
+       provider-name="queeup, troglobit">
   <requires>
     <import addon="xbmc.python"
             version="2.1.0"/>
@@ -46,6 +46,7 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
   <extension point="xbmc.addon.metadata">
     <summary>inadyn: is a free DynDNS client</summary>
     <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org, freedns.afraid.org, zoneedit.com, no-ip.com, easydns.com, tzo.com, 3322.org, dnsomatic.com, tunnelbroker.net, dns.he.net, dynsip.org, sitelutions.com, dnsexit.com</description>
+    <license>GPLv2</license>
     <platform>linux</platform>
     <nofanart>true</nofanart>
   </extension>
