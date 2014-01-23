@@ -1,0 +1,34 @@
+plugin.video.democracynow:
+--------------------------
+v2.0.3 (23.01.2014)
+-better video quality. thanks to @celadoor
+-added additional information in addon.xml
+
+v2.0.2 (09.01.2012)
+-frodo release
+-cosmetic
+
+v2.0.1 (03.01.2013)
+-fix content list
+
+v2.0.0 (30.04.2012)
+-code cleanup and reorder with pep8
+-fanart support for content list
+-use "startswith()" instead of "=="
+-revert audio support commit
+
+v1.0.5 (18.12.2011)
+-added audio support from Music add-on
+-fixed thumb issue
+
+v1.0.4 (17.12.2011)
+-prepare for Eden
+
+v1.0.3 (16.12.2011)
+-Now just todays news. Headlines, Features and Full Show.
+
+v1.0.2 (11.12.2010)
+-removed Settings
+
+v1.0.1 (12.11.2009)
+-removed debug option and codes.
