@@ -30,7 +30,7 @@
 
 <addon id="shell.python.tvnamer"
        name="tvnamer"
-       version="2.2.1.2"
+       version="2.3"
        provider-name="queeup, dbr">
   <requires>
     <import addon="os.openelec.tv" version="3.0" optional="false"/>

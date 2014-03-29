@@ -1,0 +1,15 @@
+shell.python.tvnamer:
+---------------------
+2.3
+-updated to tvnamer v2.3
+-updated to tvdb_api v1.9-git
+
+2.2.1.2
+-update language files .xml to .po system
+-minimum OE 3.0 support
+
+2.2.1.1
+-updated to tvdb_api v1.8.1
+
+2.2.1
+- initial release
