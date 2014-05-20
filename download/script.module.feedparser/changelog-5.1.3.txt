@@ -1,3 +1,0 @@
-script.module.feedparser:
--------------------------
-http://code.google.com/p/feedparser/
