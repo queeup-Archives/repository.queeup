@@ -1,5 +1,0 @@
-repository.queeup:
-------------------
-v2.0.1: frodo repo
-v2.0.0: eden repo
-v1.0.3: Change googlecode to github
