@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="service.inadyn"
+       name="inadyn"
+       version="2.0.9"
+       provider-name="queeup, troglobit">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="service.py"
+             start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>inadyn: is a free DynDNS client</summary>
+    <description>INADYN is a free DynDNS client. It gives the possibility to have your own fixed hostname registered on the internet, although your IP might be changing. Supports the following dynamic DNS services: dyndns.org, freedns.afraid.org, zoneedit.com, no-ip.com, easydns.com, tzo.com, 3322.org, dnsomatic.com, tunnelbroker.net, dns.he.net, dynsip.org, sitelutions.com, dnsexit.com, changeip.com, zerigo.com, dhis.org, nsupdate.info, duckdns.org, loopia.com, namecheap.com</description>
+    <platform>linux</platform>
+    <license>GPLv2</license>
+    <nofanart>true</nofanart>
+    <forum>http://forum.xbmc.org/showthread.php?tid=120232</forum>
+    <website>http://troglobit.com/inadyn.html</website>
+    <source>https://github.com/queeup/service.inadyn</source>
+  </extension>
+</addon>
+
 <addon
   id="repository.queeup"
   name="queeup Add-ons"
