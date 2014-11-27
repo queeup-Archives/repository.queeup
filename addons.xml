@@ -195,17 +195,17 @@ Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COL
 <addon
   id="repository.queeup"
   name="queeup Add-ons"
-  version="2.0.2"
+  version="2.0.3"
   provider-name="queeup">
   <requires>
     <import addon="xbmc.addon"
-            version="12.0.0"/>
+            version="13.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository"
              name="Unofficial queeup's Add-on Repository">
-    <info compressed="true">http://raw.github.com/queeup/repository.queeup/frodo/addons.xml</info>
-    <checksum>http://raw.github.com/queeup/repository.queeup/frodo/addons.xml.md5</checksum>
-    <datadir zip="true">http://raw.github.com/queeup/repository.queeup/frodo/download</datadir>
+    <info compressed="true">http://raw.github.com/queeup/repository.queeup/gotham/addons.xml</info>
+    <checksum>http://raw.github.com/queeup/repository.queeup/gotham/addons.xml.md5</checksum>
+    <datadir zip="true">http://raw.github.com/queeup/repository.queeup/gotham/download</datadir>
     <hashes>false</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
