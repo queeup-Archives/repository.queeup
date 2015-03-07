@@ -2,7 +2,7 @@
 <addons>
 <addon id="service.inadyn"
        name="inadyn"
-       version="2.0.11"
+       version="2.0.12"
        provider-name="queeup, troglobit">
   <requires>
     <import addon="xbmc.python"
