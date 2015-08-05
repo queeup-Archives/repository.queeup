@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="shell.python.subliminal"
+       name="subliminal"
+       version="1.0.1"
+       provider-name="queeup, Diaoul">
+  <requires>
+    <import addon="os.openelec.tv" version="2.0" optional="false"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Python module to search and download subtitles.</summary>
+    <summary lang="tr">Altyazı aramak ve indirmek için python modülü.</summary>
+    <description>Python module to search and download subtitles.
+
+This add-on just for [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] and it's for console use only. If you are not on [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] it's going to be shown as Broken.
+
+Please reboot your [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] after install.</description>
+    <description lang="tr">Altyazı aramak ve indirmek için python modülü.
+
+Bu eklenti sadece [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] ile ve konsolda çalışır. Eğer [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] kullanmıyorsanız eklenti Bozuk olarak görünür.
+
+Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR]'i yeniden başlatın.</description>
+    <disclaimer>This add-on just for [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] and it's for console use only.</disclaimer>
+    <disclaimer lang="tr">Bu eklenti sadece [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] ile ve konsolda çalışır.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="repository.queeup"
   name="queeup Add-ons"
