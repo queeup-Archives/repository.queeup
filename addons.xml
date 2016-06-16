@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+  id="plugin.video.democracynow"
+  version="2.0.5"
+  name="Democracy Now!"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Democracy Now! video add-on</summary>
+    <summary lang="tr">Democracy Now! video add-on</summary>
+    <description>Democracy Now! is a syndicated program of news, analysis, and opinion aired by more than 700 radio and television, satellite and cable TV networks in North America. Democracy Now! serves as the flagship program for the Pacifica Radio network.</description>
+    <description lang="tr">Democracy Now! is a syndicated program of news, analysis, and opinion aired by more than 700 radio and television, satellite and cable TV networks in North America. Democracy Now! serves as the flagship program for the Pacifica Radio network.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>WTFPL</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=59931</forum>
+    <website>http://www.democracynow.org</website>
+    <source>https://github.com/queeup/plugin.video.democracynow</source>
+  </extension>
+</addon>
+
+<addon id="shell.python.subliminal"
+       name="subliminal"
+       version="2.0.3"
+       provider-name="queeup, Diaoul">
+  <requires>
+    <import addon="os.openelec.tv" version="2.0" optional="false"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Python module to search and download subtitles.</summary>
+    <summary lang="tr">Altyazı aramak ve indirmek için python modülü.</summary>
+    <description>Python module to search and download subtitles.
+
+This add-on just for [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] and it's for console use only. If you are not on [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] it's going to be shown as Broken.
+
+Please reboot your [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] after install.</description>
+    <description lang="tr">Altyazı aramak ve indirmek için python modülü.
+
+Bu eklenti sadece [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] ile ve konsolda çalışır. Eğer [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] kullanmıyorsanız eklenti Bozuk olarak görünür.
+
+Lütfen yükledikten sonra [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR]'i yeniden başlatın.</description>
+    <disclaimer>This add-on just for [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] and it's for console use only.</disclaimer>
+    <disclaimer lang="tr">Bu eklenti sadece [COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR] ile ve konsolda çalışır.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
   id="repository.queeup"
   name="queeup Add-ons"
   version="4.0.0"
