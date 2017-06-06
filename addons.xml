@@ -2,7 +2,7 @@
 <addons>
 <addon
   id="plugin.video.democracynow"
-  version="2.1.0"
+  version="2.1.1"
   name="Democracy Now!"
   provider-name="queeup">
   <requires>
