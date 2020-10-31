@@ -34,32 +34,74 @@
     </extension>
 </addon>
 
-<addon
-  id="repository.queeup"
-  name="queeup Add-ons"
-  version="4.0.0"
-  provider-name="queeup">
+<addon id="shell.python.tvnamer"
+       name="tvnamer"
+       version="3.0.1"
+       provider-name="queeup, dbr">
   <requires>
-    <import addon="xbmc.addon"
-            version="16.0.0"/>
+    <import addon="os.libreelec.tv" version="8.0" optional="false"/>
   </requires>
-  <extension point="xbmc.addon.repository"
-             name="Unofficial queeup's Add-on Repository">
-    <info compressed="true">http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
-    <checksum>http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
-    <datadir zip="true">http://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
-    <hashes>false</hashes>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Install Add-ons from queeup's repository</summary>
-    <summary lang="tr">queeup'un deposundan eklentileri yükleyin</summary>
-    <description lang="en">Download and install add-ons from the unofficial queeup's addon repository.</description>
-    <description lang="tr">queeup'un resmi olmayan eklenti deposundan eklentileri indirin ve yükleyin.</description>
-    <disclaimer lang="en">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
-    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <summary>Automatic TV episode file renamer.</summary>
+    <summary lang="tr">TV bölümleri için otomatik dosya isimlendirici.</summary>
+    <description>Automatic TV episode file renamer, uses data from thetvdb.com via tvdb_api.
+
+This add-on just for LibreELEC and it's for console use only. If you are not on LibreELEC it's going to be shown as Broken.
+
+Please reboot your LibreELEC after install.</description>
+    <description lang="tr">TV bölümleri için otomatik dosya isimlendirici, tvdb_api ile thetvdb.com verilerini kullanır.
+
+Bu eklenti sadece LibreELEC ile ve konsolda çalışır. Eğer LibreELEC kullanmıyorsanız eklenti Bozuk olarak görünür.
+
+Lütfen yükledikten sonra LibreELEC'i yeniden başlatın.</description>
+    <disclaimer>This add-on just for LibreELEC and it's for console use only.</disclaimer>
+    <disclaimer lang="tr">Bu eklenti sadece LibreELEC ile ve konsolda çalışır.</disclaimer>
     <platform>all</platform>
-    <nofanart>true</nofanart>
   </extension>
+</addon>
+
+<addon
+        id="repository.queeup"
+        name="queeup Add-ons"
+        version="4.0.0"
+        provider-name="queeup">
+    <requires>
+        <import addon="xbmc.addon"
+                version="16.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+               name="Unofficial queeup's Add-on Repository">
+        <info compressed="true">http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
+        <checksum>http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
+        <datadir zip="true">http://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from queeup's repository</summary>
+        <summary lang="tr">queeup'un deposundan eklentileri yükleyin</summary>
+        <description lang="en">Download and install add-ons from the unofficial queeup's addon repository.</description>
+        <description lang="tr">queeup'un resmi olmayan eklenti deposundan eklentileri indirin ve yükleyin.</description>
+        <disclaimer lang="en">I do not host any of the online video, audio, and photo files that some of the addons link
+            to stored on third-party websites, nor do they upload such files themselves. They are not responsible for
+            what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that
+            the links contained within these addons are located somewhere else on the web. The scraped embedded links
+            point to the location of each video on the web. Please direct all copyright infringement issues to the
+            companies that host these files :- Google, Dailymotion, Veoh, and so forth.
+        </disclaimer>
+        <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the addons link
+            to stored on third-party websites, nor do they upload such files themselves. They are not responsible for
+            what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that
+            the links contained within these addons are located somewhere else on the web. The scraped embedded links
+            point to the location of each video on the web. Please direct all copyright infringement issues to the
+            companies that host these files :- Google, Dailymotion, Veoh, and so forth.
+        </disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
 </addon>
 
 <addon
