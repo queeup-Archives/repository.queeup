@@ -3,7 +3,7 @@
 <addon
         id="repository.queeup"
         name="queeup Add-ons"
-        version="5.0.0"
+        version="5.0.1"
         provider-name="queeup">
     <requires>
         <import addon="xbmc.addon"
@@ -12,21 +12,21 @@
     <extension point="xbmc.addon.repository"
                name="Unofficial queeup's Add-on Repository">
         <dir minversion="18.9.0">
-            <info compressed="true">http://raw.github.com/queeup/repository.queeup/matrix/addons.xml</info>
-            <checksum>http://raw.github.com/queeup/repository.queeup/matrix/addons.xml.md5</checksum>
-            <datadir zip="true">http://raw.github.com/queeup/repository.queeup/matrix/download</datadir>
+            <info compressed="true">https://raw.github.com/queeup/repository.queeup/matrix/addons.xml</info>
+            <checksum>https://raw.github.com/queeup/repository.queeup/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/queeup/repository.queeup/matrix/download</datadir>
             <hashes>false</hashes>
         </dir>
         <dir minversion="17.9.0">
-            <info compressed="true">http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
-            <checksum>http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">http://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
+            <info compressed="true">https://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
+            <checksum>https://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
             <hashes>false</hashes>
         </dir>
         <dir minversion="16.0.0">
-            <info compressed="true">http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
-            <checksum>http://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">http://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
+            <info compressed="true">https://raw.github.com/queeup/repository.queeup/jarvis/addons.xml</info>
+            <checksum>https://raw.github.com/queeup/repository.queeup/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/queeup/repository.queeup/jarvis/download</datadir>
             <hashes>false</hashes>
         </dir>
 
@@ -52,6 +52,34 @@
         </disclaimer>
         <platform>all</platform>
         <nofanart>true</nofanart>
+        <news>v5.0.1:
+-use https
+
+v5.0.0:
+-matrix repo
+
+v4.0.0:
+-jarvis repo
+
+v3.0.0:
+-isengard repo
+
+v2.0.3:
+-gotham repo
+
+v2.0.2:
+-cosmetic and translation
+-no hashes
+
+v2.0.1:
+-frodo repo
+
+v2.0.0:
+-eden repo
+
+v1.0.3:
+-Change googlecode to github
+        </news>
     </extension>
 </addon>
 
